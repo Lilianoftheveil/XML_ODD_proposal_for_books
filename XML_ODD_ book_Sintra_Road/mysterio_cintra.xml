@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei_cintra.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei_cintra.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="pt">
+		<fileDesc>
+			<titleStmt>
+				<title type="full">
+					<title type="main">O Mysterio da Estrada de Cintra</title>
+					<title type="sub">Cartas ao Diario de Noticias</title>
+				</title>
+				<respStmt>
+					<resp>edited by: </resp>
+					<name>Lilian Oliveira</name>
+				</respStmt>
+			</titleStmt>
+				<publicationStmt>
+					<publisher>Livraria de Antonio Maria Pereira, </publisher>Editor
+					<pubPlace>Lisboa, Lisboa</pubPlace>
+					<date when="MDCCCXCIV">1894</date>
+					<availability>
+						<p>Edição de referência: Lisboa: Livraria Antonia Maria Pereira, 1894.</p>
+					</availability>
+					<ptr target="https://pt.wikisource.org/wiki/Galeria:O_Mysterio_da_Estrada_de_Cintra_(1894).pdf"/>
+				</publicationStmt>
+			<sourceDesc>
+				<letDesc>
+					<letIdentifier>
+						<country>Portugal</country>
+						<region>Centro-Sul</region>
+						<settlement type="town">Lisboa</settlement>
+						<institution>Livraria de Antonio Maria Pereira</institution>
+						<repository>Livraria de Antonio Maria Pereira</repository>
+						<collection>Collecção Antonio Maria Pereira</collection>
+						<idno type="CDU">821.134.3-31"18"</idno>
+					</letIdentifier>
+					<physDesc>
+						<type>Book</type>
+							<support>
+								<p>a white hardcover - with the book's title at the top and an image of the author (Eça de Queiroz) in the center</p>
+							</support>
+							<extent>
+								<dimensions>
+									<height units="cm">
+									19
+									</height>
+								</dimensions>
+							</extent>
+					</physDesc>
+					<letContents>
+						<p>O Mistério da Estrada de Sintra é um romance da autoria conjunta de Eça de Queirós e de Ramalho Ortigão.</p>
+					</letContents>
+					<bibl>
+						<title type="main">O Mysterio da Entrada de Cintra</title>
+						<title type="sub">Cartas ao Diario de Noticias</title>
+						<author>Eça de Queiroz</author>
+						<author>Ramalho Ortigão</author>
+						<publisher>Livraria de Antonio Maria Pereira</publisher><settlement type="address">50 — Rua Augusta — 54</settlement><locusGrp scheme="#original"><locus>MDCCCXCIV</locus></locusGrp><locusGrp scheme="#modern"><locus>1894</locus></locusGrp>
+
+						<edition>Terceira Edição</edition>
+						<cit>
+							<quote>Edição emendada e precedida d’um Prefacio</quote>
+						</cit> 
+					</bibl>
+				</letDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<pb xml:id="p5"/>
+			<title>O Mysterio da Estrada de Cintra</title>
+
+			<pb xml:id="p6"/>
+			<note>D’esta edição tiraram-se 6 exemplares em papel Whatman</note>
+
+			<pb xml:id="p8"/>
+			<placeName where="Lisboa, Portugal">Lisboa</placeName>
+			<publisher>TYPOGRAPHIA E STEREOTYPIA MODERNA</publisher>
+			<note>11 — Apostolos — 1º</note>
+
+			<pb xml:id="p9"/>
+			<div type="preface">
+				<head>Prefacio da 2ª Edição</head>
+				<p>carta ao editor do <title>Mysterio da Estrada de Cintra</title></p>
+				
+				<p>Ha quatorze annos, n’uma noite de verão no <name type="org">Pas<pc force="inter">-</pc>
+				seio Publico</name>, em frente de duas chavenas de<lb/>
+				café, penetrados pela tristeza da grande cidade<lb/>
+				que em torno de nós cabeceava de somno<lb/>
+				ao som de um soluçante <foreign xml:lang="fr"><hi rend="italic">pot-pourri</hi></foreign> dos<lb/>
+				<hi rend="italic"><name type="opera">Dois Foscaris</name></hi>, deliberámos reagir sobre nós mesmos e<lb/>
+				acordar tudo aquilo a berros, n’um romance tremendo,<lb/>
+				businado á baixa das alturas do <name type="org"><hi rend="italic">Diario de Noticias</hi></name><lb/>.</p>
+
+				<p>Para esse fim, sem plano, sem methodo, sem escola,<lb/>
+				sem documentos, sem estylo, recolhidos á simples «torre<lb/>
+				de crystal da Imaginação», desfechámos a improvisar este<lb/>
+				livro, um em <placeName where="Leiria, Portugal">Leiria</placeName>, outro em <placeName where="Lisboa, Portugal">Lisboa</placeName>, cada um de nós<lb/>
+				com com uma resma de papel, a sua alegria e a sua audacia.</p>
+
+				<p>Parece que <placeName where="Lisboa, Portugal">Lisboa</placeName>effectivamente despertou, pella sym<pc force="inter">-</pc>
+				pathia ou pela curiosidade, pois que tendo lido na larga<lb/>
+				tiragem do <name type="org"><hi rend="italic">Diario de Noticias</hi></name> o <title><hi rend="italic">Mysterio da Estrada<lb/>
+				de Cintra</hi></title>, o comprou ainda n’uma edição em livro; e<lb/>
+				hoje manda-nos V. as provas de uma terceira edição,
+
+				<pb xml:id="p10" style="page-break-after: always; break-after: page;" />
+				perguntando-nos o que pensamos da obra escripta n’esses velhos tempos, que<lb/>
+				recordamos com saudade...</p>
+				
+				<p>Havia já então terminado o feliz reinado do senhor <choice><abbr>D.<expan>Dom</expan></abbr></choice><lb/>
+				<persName><forename>João</forename></persName> VI. Fallecera o sympathico <persName>Garção</persName>, <persName>Tolentino</persName> o jo<pc force="inter">-</pc>
+				cundo, e o sempre chorado <persName>Quita</persName>. Além do <name type="org">Passeio Pu<pc force="inter">-</pc>blico</name>, já n’essa epoca evacuado como o resto do paiz pelas<lb/> tropas de <persName>Junot</persName>, encarregava-se tambem de fallar ás ima<pc force="inter">-</pc>
+				ginações o <choice><abbr>sr.<expan>Senhor</expan></abbr></choice> <persName><forename>Octave</forename><surname>Feuillet</surname></persName>. O nome de <persName><surname>Flaubert</surname></persName> não<lb/>
+				era familiar aos folhetinistas. <persName><forename>Ponson</forename><surname>du Terrail</surname></persName> trovejava<lb/>
+				no <placeName where="Sinai, Egito">Sinai</placeName> dos pequenos jornaes e das bibliothecas econo<pc force="inter">-</pc>
+				micas. O <choice><abbr>sr.<expan>Senhor</expan></abbr></choice> <persName><forename>Jules</forename><surname>Claretie</surname></persName> publicava um livro intitulado...<lb/>
+				(ninguem hoje se lembra do titulo) do qual diziam comm<pc force="inter">-</pc>
+				ovidamente os criticos: <said>— <hi rend="italic">Eis ahi uma obra que ha de<lb/>
+				ficar!...</hi></said> Nós, emfim, eramos novos.</p>
+				
+				<p>O que pensamos hoje do romance que escrevemos ha<lb/>
+				quatorze annos?... Pensamos simplesmente <said>— louvores a<lb/>
+				Deus! —</said> que elle é execravel; e nenhum de nós, quer co<pc force="inter">-</pc>
+				mo romancista, quer como critico, deseja, nem ao seu<lb/>
+				peor inimigo, um livro egual. Porque n’elle ha um pouco<lb/>
+				de tudo quanto um romancista lhe não deveria pôr e quasi<lb/>
+				tudo quanto um critico lhe deveria tirar.</p>
+				
+				<p>Poupemol-o <said>— para o não aggravar fazendo-o em tres<lb/>
+				volumes —</said> á enumeração de todas as suas deformidades!<lb/>
+				Corramos um veu discreto sobre os seus mascarados de<lb/>
+				diversas alturas, sobre os seus medicos mysteriosos, sobre<lb/>
+				os seus louros capitães inglezes, sobre as suas condessas<lb/>
+				fataes, sobre os seus tigres, sobre os seus elephantes, so<pc force="inter">-</pc>
+				bre os seus hiates em que se arvoram, como pavilhões do<lb/>
+				ideal, lenços brancos de cambraia e renda, sobre os seus<lb/>
+				sinistros copos d’opio, sobre os seus cadaveres elegantes,<lb/>
+				sobre as suas <foreign xml:lang="fr"><hi rend="italic">toilettes</hi></foreign> romanticas, sobre os seus cavallos<lb/>
+				esporeados por cavalleiros de capas alvadias desappare<pc force="inter">-</pc>
+				cendo envoltos no pó das phantasticas aventuras pela Por<pc force="inter">-</pc>
+				calhota fóra!...</p>
+			
+				<pb xml:id="p11"/>
+				<p>Todas estas cousas, aliás sympathicas, commoventes por<lb/>
+				vezes, sempre sinceras, desgostam todavia velhos escri<pc force="inter">-</pc>
+				ptores, que ha muito desviaram os seus olhos das perspe<pc force="inter">-</pc>
+				ctivas enevoadas da sentimentalidade, para estudarem pa<pc force="inter">-</pc>
+				cientemente e humildemente as claras realidades da sua<lb/>
+				rua.</p>
+
+				<p>Como permittimos pois que se republique um livro que<lb/>
+				sendo todo d’imaginação, scismando e não observado, des<pc force="inter">-</pc>
+				mente toda a campanha que temos feito pella arte de ana<pc force="inter">-</pc>
+				lyse e de certeza objectiva?</p>
+
+				<p>Consentimol-o porque entendemos que nenhum traba<pc force="inter">-</pc>
+				lhador deve parecer envergonhar-se do ser trabalho.</p>
+
+				<p>Conta-se que <persName><surname>Murat</surname></persName>, sendo rei de <placeName where="Nápoles, Itália">Napoles</placeName>, mandara pen<pc force="inter">-</pc>
+				durar na sala do throno o seu antigo chicote de postilhão,<lb/>
+				e muitas vezes, apontando para o sceptro mostrava depois<lb/>
+				o açoite, gostando de repetir:<said><hi rend="italic"> Comecei por ali.</hi></said> Esta glo<pc force="inter">-</pc>
+				riosa historia confirma o nosso parecer, sem com isto<lb/>
+				querermos dizer que ella se applique ás nossa pessoas.<lb/>
+				Como throno temos ainda a mesma velha cadeira em que<lb/>
+				escreviamos ha quinze annos; não temos docel que nos<lb/>
+				cubra; e as nossas cabeças, que embranquecem, não se<lb/>
+				cingem por emquanto de corôa alguma, nem de louros,<lb/>
+				nem de <placeName where="Nápoles, Itália">Napoles</placeName>.</p>
+
+				<p>Para nossa modesta satisfação basta-nos não ter cessado<lb/>
+				de trabalhar um só dia desde aquelle em que datámos este<lb/>
+				livro até o instante em que elle nos reapparece inespera<pc force="inter">-</pc>
+				damente na sua terceira edição, com um petulante arzinho<lb/>
+				de triumpho que, á fé de Deus, não lhe vae mal!</p>
+
+				<p>Então, como agora, escreviamos honestamente, isto é, o<lb/>
+				melhor que podiamos: d’esse amor da perfeição, que é a<lb/>
+				honradez dos artistas, veio talvez a sympathia do publico<lb/>
+				ao livro da nossa mocidade.</p>
+
+				<pb xml:id="p12"/>
+				<p>Ha mais duas razões, para auctorizar esta reedição.</p>
+
+				<p>A primeira é que a publicação d’este livro, fóra de todos<lb/>
+				os moldes até o seu tempo consagrados, pode conter, para<lb/>
+				uma geração que precisa de a receber, uma util lição de<lb/>
+				independencia.</p>
+
+				<p>A mocidade que nos succedeu, em vez de ser inventiva,<lb/>
+				audaz, revolucionaria, destruidosa d’idolos, parece-nos ser<pc force="inter">-</pc>
+				vil, imitadora, copista curvada de mais deante dos mes<pc force="inter">-</pc>
+				tres. Os novos escriptores não avançam um pé que não<lb/>
+				pousem na pégada que deixaram outros. Esta pusilanimi<pc force="inter">-</pc>
+				dade torna todas as obras tropegas, dá-lhes uma expressão esta<pc force="inter">-</pc>
+				fada; e a nós, que partimos, a geração que chega faz-nos<lb/>
+				o effeito de sahir velha do berço e de entrar na arte de<lb/>
+				muletas.</p>
+
+				<p>Os documentos das nossas primeiras loucuras de cora<pc force="inter">-</pc>
+				ção queimámol-os ha muito, os das nossas extravagancias<lb/>
+				de espirito desejamos que fiquem. Aos vinte annos é pre<pc force="inter">-</pc>
+				ciso que alguem seja estroina, nem sempre talvez para<lb/>
+				que o mundo progrida, mas ao menos para que o mundo<lb/>
+				se agite, Para ser ponderado, correcto e immovel ha<lb/>
+				tempo de sobra na velhice.</p>
+
+				<p>Na arte, a indisciplina dos novos, a sua rebelde força de<lb/>
+				resistencia ás correntes da tradição, é indispensavel para<lb/>
+				a revivescencia da invenção e do poder criativo, e para a<lb/>
+				originalidade artistica. Ai das litteraturas em que não ha<lb/>
+				mocidade! Como os velhos que atravessaram a vida sem<lb/>
+				o sobressalto de uma aventura, não haverá n’ellas que lem<pc force="inter">-</pc>
+				brar. Além de que, para os que na edade madura foram<lb/>
+				arrancados pelo dever ás facilidades da improvisação e en<pc force="inter">-</pc>
+				contram n’esta região dura das coisas exactas, entristecedora e mesquinha, onde, em logar do esplendor dos he<pc force="inter">-</pc>
+				roismos e da belleza das paixões, só ha a pequenez dos<lb/>
+				caracteres e a miseria dos sentimenos, seria dôce e re<pc force="inter">-</pc></p>
+
+				<pb xml:id="p13" style="page-break-after: always; break-after: page;" />
+				<p>confortante ouvir de longe a longe, nas manhãs de sol, ao<lb/>
+				voltar da primavera, zumbir no azul, como nos bons tem<pc force="inter">-</pc>
+				pos, a doirada abelha da phantasia.</p>
+
+				<p>A ultima razão que nos leva a não repudiar este livro,<lb/>
+				é que elle é ainda o testemunho da intima confraternidade<lb/>
+				de dois antigos homens de lettras, resistindo a vinte annos<lb/>
+				de provação nos contactos de uma sociedade que por to<pc force="inter">-</pc>
+				dos os lados se dissolve. E, se isto não é um triumpho<lb/>
+				para o nosso espírito, é para o nosso coração uma suave<lb/>
+				alegria.</p>
+
+				<closer>
+					<dateline>
+						<placeName where="Lisboa, Portugal">Lisboa</placeName>
+						<date when="1881-12-14">14 de dezembro de 1881</date>.
+					</dateline>
+
+					<salute>
+							De
+							<choice>
+								 <abbr>V.</abbr>
+								 <expan>Vossos</expan>
+							</choice>
+							Antigos amigos<lb />
+							<persName><forename>Eça</forename> </persName>
+							<persName><surname>de Queiroz</surname></persName><lb />
+							<persName><forename>Ramalho</forename> </persName>
+							<persName><surname>Ortigão</surname></persName>
+					</salute>
+				</closer>
+			</div>
+		</front>
+
+		<body>
+
+			<pb xml:id="p14"/>
+			<!-- blank page, no information -->
+
+			<pb xml:id="p15"/>
+			<title>O Mysterio da Estrada de Cintra</title>
+
+			<pb xml:id="p16"/>
+			<!-- blank page, no information -->
+
+			<pb xml:id="p17"/>
+			<div type="chapter" n="1">
+				<title>EXPOSIÇÃO DO DOUTOR ***</title>
+				<locusGrp scheme="#original">
+					<locus>I</locus>
+				</locusGrp>
+				<locusGrp scheme="#modern">
+					<locus>1</locus>
+				</locusGrp>
+
+				<p><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> redactor do <name type="org">Diario de Noticias</name>.</p>
+
+				<p>Venho pôr nas suas mãos a narração de um<lb/>
+				caso verdadeiramente extraordinario em que<lb/>
+				intervim como facultativo, pedindo-lhe que, pelo<lb/>
+				modo que entender mais adequado, publique na<lb/>
+				sua folha a substancia, pelo menos, do que vou<lb/>
+				expôr.</p>
+
+				<p>Os successos a que me refiro são tão graves, cerca-os<lb/>
+				um tal mysterio, envolve-os uma tal apparencia de crime<lb/>
+				que a publicidade do que se passou por mim torna-se im<pc force="inter">-</pc>
+				portantissima como chave unica para a desencerração de<lb/>
+				um drama que supponho terrivel com quanto não conheça<lb/>
+				d’elle senão um só acto e ignore inteiramente quaes foram<lb/>
+				as scenas precedentes e quaes tenham de ser as ultimas.</p>
+
+				<p>Ha tres dias que eu vinha dos suburbios de <placeName where="Cintra, Portugal">Cintra</placeName> em<lb/>
+				companhia de F..., um amigo meu, em cuja casa tinha<lb/>
+				ido passar algum tempo.</p>
+
+				<p>Montavamos dois cavallos que F... tem na sua quinta<lb/>
+				e que deviam ser reconduzidos a <placeName where="Cintra, Portugal">Cintra</placeName> por um criado que<lb/>
+				viera na vespera para <placeName where="Lisboa, Portugal">Lisboa</placeName>.</p>
+
+				<p>Era ao fim da tarde quando atravessámos a charneca. A<lb/>
+				melancolia do logar e da hora tinha-se-nos communicado,<lb/>
+				e vinhamos silenciosos, abstrahidos na paizagem, cami<pc force="inter">-</pc>
+				nhando a passo.</p>
+
+
+				<pb xml:id="p18"/>
+				<p>A cerca de talvez de meia distancia do caminho entre <choice>
+				<abbr>S.</abbr><expan>São</expan></choice><lb/>
+				<persName><forename>Pedro </forename></persName> e o <persName><forename>Cacem</forename></persName>, n’um ponto a que não sei o nome, por<pc force="inter">-</pc>
+				que tenho transitado pouco n’aquella estrada, sitio deserto<lb/>
+				como todo o caminho através da charneca, estava parada<lb/>
+				uma carruagem.</p>
+
+				<p>Era um <name type="car"><hi rend="italic">coupé</hi></name> pintado de escuro, verde e preto, e tirado<lb/>
+				por uma parelha côr de castanha.</p>
+
+				<p>O cocheiro, sem libré, estava em pé, de costas para nós,<lb/>
+				diante dos cavallos.</p>
+
+				<p>Dois sujeitos achavam-se curvados ao pé das rodas que<lb/>
+				ficavam para a parte da estrada por onde tinhamos de pas<pc force="inter">-</pc>
+				sar, e pareciam occupados em examinar attentamente o<lb/>
+				jogo da carruagem.</p>
+
+				<p>Um quarto individuo, egualmente de costas para nós,<lb/>
+				estava perto do vallado do outro lado do caminho, pro<pc force="inter">-</pc>
+				curando alguma cousa, talvez uma pedra para calçar o<lb/>
+				trem.</p>
+
+				<p><said>— É o resultado das sobrodas que tem a estrada, obser<pc force="inter">-</pc>
+				vou o meu amigo. Provavelmente o eixo partido ou alguma<lb/>
+				roda desembuxada.</said></p>
+
+				<p>Passavamos a este tempo pelo meio dos tres vultos a que<lb/>
+				me referi, e F... tinha tido apenas tempo de concluir a<lb/>
+				phrase que proferira, quando o cavallo que eu montava deu<lb/>
+				repentinamente meia volta rapida, violenta, e caiu de chapa.</p>
+
+				<p>O homem que estava junto do vallado, ao qual eu não<lb/>
+				dava attenção porque ia voltado a examinar o trem, deter<pc force="inter">-</pc>
+				minara essa queda, colhendo repentinamente e com a ma<pc force="inter">-</pc>
+				xima força as redeas que ficavam para o lado d’elle e im<pc force="inter">-</pc>
+				pellindo ao mesmo tempo com um pontapé o flanco do ani<pc force="inter">-</pc>
+				mal para o lado oposto.</p>
+
+				<p>O cavallo, que era um poldro de pouca força e mal ma<pc force="inter">-</pc>
+				nejado, escorregou das pernas e tombou ao dar a volta ra<pc force="inter">-</pc>
+				pida e precipitada a que o tinham constrangido.</p>
+
+				<p>O desconhecido fez levantar o cavallo segurando-lhe as<lb/>
+				redeas, e, ajudando-me a erguer, indagava com interesse<lb/>
+				se eu teria molestado a perna que ficára debaixo do ca<pc force="inter">-</pc>
+				vallo.</p>
+
+				<p>Este individuo tinha na voz a entoação especial dos ho<pc force="inter">-</pc>
+				mens bem educados. A mão que me offereceu era delicada.<lb/>
+				O rosto tinha-o coberto com uma mascara de setim preto.<lb/>
+				Entrelembro-me de que trazia um pequeno fumo no cha<pc force="inter">-</pc>
+				peu. Era um homem agil e extremamente forte, segundo<lb/>
+				denota o modo como fez cair o cavallo.</p>
+
+				<p>Ergui-me alvoroçadamente e, antes de ter tido ocasião<lb/>
+				de dizer uma palavra, vi que, ao tempo da minha queda,<lb/>
+				se travara lucta entre o meu companheiro e os outros dois
+
+
+				<pb xml:id="p19" style="page-break-after: always; break-after: page;" />
+
+
+				individuos que fingiam examinar o trem e que tinham<lb/>
+				a cara coberta como aquelle de que já fallei.</p>
+
+				<p>Puro <persName><forename>Ponson</forename><surname>du Terrail</surname></persName>! dirá o <choice>
+				<abbr>sr.</abbr><expan>Senhor</expan></choice> redactor. Evidente<pc force="inter">-</pc>
+				mente. Parece que a vida, mesmo no caminho de <placeName where="Cintra, Portugal">Cintra</placeName>,<lb/>
+				pode às vezes ter o capricho de ser mais romanesca do<lb/>
+				que pede a verosimilhança artistica. Mas eu não faço arte,<lb/>
+				narro factos unicamente.</p>
+
+				<p>F..., vendo o seu cavallo subitamente seguro pellas cam<pc force="inter">-</pc>
+				bas do freio, tinha obrigado a largal-o um dos desconhe<pc force="inter">-</pc>
+				cidos, em cuja cabeça descarregára uma pancada com o<lb/>
+				cabo do chicote, o qual o outro mascarado conseguira logo<lb/>
+				depois arrancar-lhe da mão.</p>
+
+				<p>Nenhum de nós trazia armas. O meu amigo tinha no en<pc force="inter">-</pc>
+				tanto tirado da algibeira a chave de uma porta da casa de<lb/>
+				<placeName where="Cintra, Portugal">Cintra</placeName>, e esporeava o cavallo estirando-se-lhe no pescoço e<lb/>
+				procurando alcançar a cabeça d’aquelle que o tinha seguro.</p>
+
+				<p>O mascarado, porém, que continuava a segurar em uma<lb/>
+				das mãos o freio do cavallo empinado, apontou com
+				a ou<pc force="inter">-</pc>tra um rewolver á cabeça do meu amigo e disse-lhe com<lb/>
+				serenidade:</p>
+
+				<p><said>— Menos furia! menos furia!</said></p>
+
+				<p>O que levára com o chicote na cabeça e ficára por um<lb/>
+				momento encostado á portinhola do trem, visivelmente ator<pc force="inter">-</pc>
+				doado mas não ferido, porque o cabo era de baleia e tinha<lb/>
+				por castão uma simples guarnição feita com uma trança de<lb/>
+				clina, havia já a este tempo levantado do chão e posto na<lb/>
+				cabeça o chapeu que lhe caira.</p>
+
+				<p>A este tempo o que me derribara o cavallo e me ajudara<lb/>
+				a levantar tinha-me deixado ver um par de pequeninas pis<pc force="inter">-</pc>
+				tolas de coronhas de prata, d’aquellas a que chamam em<lb/>
+				<placeName where="França">França</placeName> <foreign xml:lang="fr"><hi rend="italic">coups de poing</hi></foreign> e que varam uma porta a trinta<lb/>
+				passos de distancia. Depois do que, me offereceu delicada<pc force="inter">-</pc>
+				mente o braço, dizendo-me com afabilidade:</p>
+
+				<p><said>— Parece-me mais commodo acceitar um logar que lhe<lb/>
+				offereço na carruagem do que montar outra vez no cavallo<lb/>
+				ou ter de arrastar a pé d’aqui á pharmacia da Porcalhota<lb/>
+				a sua perna magoada.</said></p>
+
+				<p>Não sou dos que se amedrontam mais promptamente com<lb/>
+				a ameaça feita com armas. Sei que ha um abysmo entre<lb/>
+				prometter um tiro e desfechal-o. Eu movia bem a perna<lb/>
+				trilhada, o meu amigo estava montado em um cavallo pos<pc force="inter">-</pc>
+				sante; somos ambos robustos; poderiamos talvez resistir<lb/>
+				por dez minutos, ou por um quarto de hora, e durante esse<lb/>
+				tempo nada mais provavel, em estrada tão frequentada<lb/>
+				como a de <placeName where="Cintra, Portugal">Cintra</placeName> n’esta quadra, do que apparecerem pas<pc force="inter">-</pc>
+				sageiros que nos prestassem auxílio.</p>
+
+
+
+				<pb xml:id="p20"/>
+				<p>Todavia confesso que me sentia attrahido para o imprevisto de uma tão extranha aventura.</p>
+
+				<p>Nenhum caso anterior, nenhuma circumstancia da nossa vida nos permittia suspeitar que alguem podesse ter interesse em exercer comnosco pressão ou violencia alguma.</p>
+
+				<p>Sem eu bem poder a esse tempo explicar porquê, não me parecia tambem que as pessoas que nos rodeavam projectassem um roubo, menos ainda um homicidio. Não tendo tido tempo de observar miudamente a cada um, e tendo-lhes ouvido apenas algumas palavras fugitivas, figuravam-se-me pessoas de bom mundo. Agora que de espírito socegado penso no acontecido, vejo que a minha conjectura se baseava em varias circumstancias dispersas, nas quaes, ainda que de relance, eu attentara, mesmo sem proposito de analyse. Lembro-me, por exemplo, que era de setim alvadio o forro do chapeu do que levara a pancada na cabeça. O que apontára o rewolver a F... trazia calçada uma luva côr de chumbo apertada com dois botões. O que me ajudára a levantar tinha os pés finos e botas envernizadas; as calças, de casimira côr de avelã, eram muito justas e de presilhas. Tinha esporas.</p>
+
+				<p>Não obstante a disposição em que me achava de ceder da lucta e de entrar no trem, perguntei em allemão ao meu amigo se elle era de opinião que resistissemos ou que nos rendessemos.</p>
+
+				<p><said>— Rendam-se, rendam-se para nos poupar algum tempo que nos é precioso!</said> disse gravemente um dos desconhecidos. <said>Por quem são, acompanhem-nos! Um dia saberão por que motivo lhes sahimos ao caminho mascarados. Damos-lhes a nossa palavra que ámanhã estarão nas suas casas, em <placeName where="Lisboa, Portugal">Lisboa</placeName>. Os cavallos ficarão em <placeName where="Cintra, Portugal">Cintra</placeName> d’aqui a duas horas.</said></p>
+
+				<p>Depois de uma breve reluctancia, que eu contribuí para desvanecer, o meu companheiro apeou-se e entrou no <name type="car"><hi rend="italic">coupé</hi></name>. Eu segui-o.</p>
+
+				<p>Cederam-nos os melhores logares. O homem que se achava em frente da parelha segurou os nossos cavallos; o que fizera cair o poldro subiu para a almofada e pegou nas guias; ou outros dois entraram comnosco e sentaram-se nos logares fronteiros aos nossos. Fecharam-se em seguida os stores de madeira dos postigos e correu-se uma cortina de seda verde que cobria por dentro os vidros fronteiros da carruagem.</p>
+
+				<p>No momento de partirmos, o que ia guiar bateu na vidraça e pediu um charuto. Passaram-lhe para fóra uma charuteira de palha de Java. Pella fresta por onde recebeu</p>
+
+
+				<pb xml:id="p21"/>
+
+				<p>os charutos lançou para dentro do trem a mascara que tinha no rosto, e partimos a galope.</p>
+
+				<p>Quando entrei para a carruagem pareceu-me avistar ao longe, vindo de <placeName where="Lisboa, Portugal">Lisboa</placeName>, um omnibus, talvez uma sege. Se me não illudi, a pessoa ou pessoas que vinham no trem a que me refiro terão visto os nossos cavallos, um dos quaes é russo e o outro castanho, e poderão talvez dar noticia da carruagem em que íamos e da pessoa que nos servia de cocheiro. O coupé era, como já disse, verde e preto. Os stores, de mogno polido, tinham no alto quatro fendas estreitas e oblongas, dispostas em cruz.</p>
+
+				<p>Falta-me tempo para escrever o que ainda me resta por contar a horas de expedir ainda hoje esta carta pela posta interna.</p>
+
+				<p>Continuarei. Direi então, se o não suspeitou já, o motivo porque lhe occulto o meu nome e o nome do meu amigo.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
